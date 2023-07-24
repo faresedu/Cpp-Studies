@@ -41,8 +41,10 @@ int main(){
         else break;
 
         cout<<"Result: "<<x<<endl;
-        cout<<"Type 0, if you wanna leave"<<endl;
+        cout<<"Type 0, if you wanna leave, or another number, if you wanna stay"<<endl;
         cin>>choose;
+
+        system ("clear");
     }
 
 
